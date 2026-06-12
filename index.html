@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Window Cleaning Noosa & Sunshine Coast | Sunny Coast Windows — Free Quote</title>
+<meta name="description" content="Professional window cleaning, track & screen cleaning, pressure washing & exterior house cleaning across Noosa and the Sunshine Coast. Satisfaction guaranteed. Call 0431 832 316 for a free quote today.">
+<meta property="og:title" content="Sunny Coast Windows — Window Cleaning, Noosa & Sunshine Coast">
+<meta property="og:description" content="Spotless windows that elevate your home's appearance and value. Local crew, satisfaction guaranteed. Free quotes.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=1200&q=80">
+<link rel="icon" href="https://static.wixstatic.com/media/1dfdad_a94216133bd143218c3c2cb48002bfc4~mv2.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Sunny Coast Windows",
+  "image": "https://static.wixstatic.com/media/1dfdad_a94216133bd143218c3c2cb48002bfc4~mv2.png",
+  "telephone": "+61431832316",
+  "url": "https://www.sunnycoastwindows.com.au/",
+  "address": { "@type": "PostalAddress", "addressLocality": "Noosa", "addressRegion": "QLD", "addressCountry": "AU" },
+  "areaServed": ["Noosa", "Sunshine Coast", "Noosa Heads", "Sunshine Beach", "Peregian", "Coolum", "Maroochydore", "Buderim"],
+  "priceRange": "$$",
+  "makesOffer": [
+    {"@type":"Offer","itemOffered":{"@type":"Service","name":"Window Cleaning"}},
+    {"@type":"Offer","itemOffered":{"@type":"Service","name":"Track & Screen Cleaning"}},
+    {"@type":"Offer","itemOffered":{"@type":"Service","name":"Residential Cleaning"}},
+    {"@type":"Offer","itemOffered":{"@type":"Service","name":"Pressure Cleaning"}},
+    {"@type":"Offer","itemOffered":{"@type":"Service","name":"Exterior House Cleaning"}},
+    {"@type":"Offer","itemOffered":{"@type":"Service","name":"Commercial Cleaning"}}
+  ]
+}
+</script>
+<style>
+:root{
+  --ink:#0F3540;          /* deep coastal teal (evolved from #194C57) */
+  --ink-soft:#33545E;
+  --blue:#0E8C99;         /* primary accent — CTAs only (vivid teal) */
+  --blue-deep:#0A6E79;
+  --aqua:#8BB7B7;         /* signature soft teal from the reference */
+  --aqua-soft:#ECF4F3;
+  --sand:#F7FAFB;         /* surface */
+  --white:#FFFFFF;
+  --text:#41525E;
+  --gold:#FFB648;
+  --radius:16px;
+  --shadow-1:0 2px 6px rgba(6,36,59,.05), 0 8px 24px rgba(6,36,59,.06);
+  --shadow-2:0 4px 10px rgba(6,36,59,.07), 0 18px 44px rgba(6,36,59,.12);
+  --maxw:1280px;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:'Inter',sans-serif;color:var(--text);background:var(--white);font-size:17px;line-height:1.6;overflow-x:hidden}
+h1,h2,h3,h4{font-family:'Sora',sans-serif;color:var(--ink);line-height:1.12}
+img{max-width:100%;display:block}
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 clamp(20px,4vw,48px)}
+section{padding:clamp(64px,9vw,150px) 0}
+.eyebrow{font-family:'Sora',sans-serif;font-size:12px;font-weight:700;letter-spacing:.32em;text-transform:uppercase;color:var(--blue);margin-bottom:18px}
+.h-xl{font-size:clamp(38px,6.2vw,84px);font-weight:800;letter-spacing:-.02em}
+.h-l{font-size:clamp(30px,3.8vw,52px);font-weight:700;letter-spacing:-.015em}
+.lede{font-size:clamp(17px,1.4vw,20px);max-width:58ch}
+
+/* ---------- CTA ---------- */
+.cta{display:inline-flex;align-items:center;gap:10px;background:var(--blue);color:#fff;font-family:'Sora',sans-serif;
+  font-weight:700;font-size:16px;padding:17px 34px;border-radius:999px;text-decoration:none;border:none;cursor:pointer;
+  box-shadow:0 6px 18px rgba(14,140,153,.3);transition:box-shadow .2s ease,transform .2s ease,filter .2s ease;white-space:nowrap}
+.cta:hover{box-shadow:0 0 0 10px rgba(14,140,153,.13),0 10px 28px rgba(14,140,153,.42);transform:scale(1.02);filter:brightness(1.06)}
+.cta svg{flex:none}
+.cta--ghost{background:transparent;color:var(--ink);box-shadow:inset 0 0 0 2px rgba(6,36,59,.16)}
+.cta--ghost:hover{box-shadow:inset 0 0 0 2px var(--blue),0 0 0 8px rgba(11,132,224,.08);color:var(--blue)}
+
+/* ---------- Header ---------- */
+header{position:fixed;inset:0 0 auto 0;z-index:100;transition:background .3s ease,box-shadow .3s ease,backdrop-filter .3s ease;padding:14px 0}
+header.scrolled{background:rgba(255,255,255,.82);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);box-shadow:0 1px 0 rgba(6,36,59,.06)}
+.nav{display:flex;align-items:center;gap:34px}
+.nav .logo img{height:54px;width:auto}
+.nav-links{display:flex;gap:30px;margin-left:auto}
+.nav-links a{font-size:14.5px;font-weight:500;color:var(--ink);text-decoration:none;position:relative;padding:4px 0}
+.nav-links a::after{content:"";position:absolute;left:0;bottom:0;width:100%;height:2px;background:var(--blue);transform:scaleX(0);transform-origin:left;transition:transform .25s ease}
+.nav-links a:hover::after{transform:scaleX(1)}
+.nav .cta{padding:12px 24px;font-size:14px}
+.nav-phone{font-family:'Sora',sans-serif;font-weight:700;font-size:15px;color:var(--ink);text-decoration:none}
+.burger{display:none;background:none;border:none;cursor:pointer;width:42px;height:42px;margin-left:auto}
+.burger span{display:block;width:24px;height:2px;background:var(--ink);margin:5px auto;transition:.3s}
+.mobile-menu{position:fixed;inset:0;background:var(--ink);z-index:99;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:30px;
+  opacity:0;pointer-events:none;transition:opacity .3s ease}
+.mobile-menu.open{opacity:1;pointer-events:auto}
+.mobile-menu a{color:#fff;font-family:'Sora',sans-serif;font-size:24px;font-weight:600;text-decoration:none}
+.mobile-menu .cta{font-size:17px}
+
+/* ---------- Hero ---------- */
+.hero{position:relative;min-height:100svh;display:flex;align-items:center;padding:140px 0 90px;overflow:hidden;
+  background:linear-gradient(160deg,#FDFEFE 0%,var(--aqua-soft) 55%,#DDEDEB 100%)}
+.blob{position:absolute;border-radius:50%;filter:blur(70px);opacity:.5;will-change:transform}
+.blob.b1{width:560px;height:560px;background:radial-gradient(circle,#BFE0FF, transparent 65%);top:-140px;right:-80px}
+.blob.b2{width:480px;height:480px;background:radial-gradient(circle,var(--aqua), transparent 65%);bottom:-160px;left:-120px}
+.blob.b3{width:300px;height:300px;background:radial-gradient(circle,#CFE9FF, transparent 65%);top:38%;left:46%}
+.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:clamp(36px,5vw,72px);align-items:center;position:relative;z-index:2}
+.hero h1{margin-bottom:22px}
+.hero .lede{margin-bottom:34px}
+.proof{display:flex;align-items:center;gap:22px;margin-top:34px;flex-wrap:wrap}
+.stars{color:var(--gold);font-size:18px;letter-spacing:2px}
+.proof small{font-size:13.5px;color:var(--ink-soft);font-weight:500}
+.proof .divider{width:1px;height:26px;background:rgba(6,36,59,.15)}
+.hero-img{position:relative}
+.hero-img .frame{border-radius:24px;overflow:hidden;box-shadow:var(--shadow-2);aspect-ratio:4/4.6;clip-path:inset(0 0 0 0 round 24px)}
+.hero-img .frame img{width:100%;height:100%;object-fit:cover}
+.hero-badge{position:absolute;left:-26px;bottom:34px;background:#fff;border-radius:14px;box-shadow:var(--shadow-2);
+  padding:14px 20px;display:flex;gap:12px;align-items:center}
+.hero-badge .tick{width:38px;height:38px;border-radius:50%;background:var(--aqua-soft);display:grid;place-items:center;color:var(--blue);font-size:18px}
+.hero-badge b{font-family:'Sora',sans-serif;color:var(--ink);font-size:14.5px;display:block}
+.hero-badge span{font-size:12.5px}
+
+/* ---------- Problem ---------- */
+.problem{background:var(--ink);color:#C7D6DF;text-align:center}
+.problem p{font-family:'Sora',sans-serif;font-size:clamp(22px,3vw,38px);font-weight:600;color:#fff;line-height:1.4;max-width:21ch;margin:0 auto 18px}
+.problem .sub{font-family:'Inter',sans-serif;font-size:clamp(16px,1.5vw,19px);font-weight:400;color:#9FB4C0;max-width:52ch;margin:0 auto;line-height:1.65}
+.problem .accent{color:var(--aqua)}
+
+/* ---------- Shift ---------- */
+.shift-grid{display:grid;grid-template-columns:1fr 1fr;gap:clamp(36px,5vw,80px);align-items:center}
+.shift-img{border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow-2)}
+.shift-img img{width:100%;height:100%;object-fit:cover;aspect-ratio:4/3}
+.checklist{list-style:none;margin-top:28px;display:grid;gap:14px}
+.checklist li{display:flex;gap:14px;align-items:flex-start;font-size:16.5px}
+.checklist .c{flex:none;width:26px;height:26px;border-radius:50%;background:var(--aqua-soft);color:var(--blue);display:grid;place-items:center;font-size:13px;font-weight:700;margin-top:2px}
+
+/* ---------- Steps ---------- */
+.steps{background:var(--sand)}
+.steps-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px;margin-top:54px}
+.step{background:#fff;border-radius:var(--radius);padding:40px 32px 36px;box-shadow:var(--shadow-1);position:relative;
+  transition:transform .25s ease,box-shadow .25s ease;cursor:default}
+.step:hover{transform:translateY(-5px);box-shadow:var(--shadow-2)}
+.step .num{font-family:'Sora',sans-serif;font-size:84px;font-weight:800;color:var(--aqua-soft);line-height:1;position:absolute;top:18px;right:24px;user-select:none}
+.step .icon{width:54px;height:54px;border-radius:14px;background:var(--aqua-soft);display:grid;place-items:center;margin-bottom:22px;color:var(--blue)}
+.step h3{font-size:21px;margin-bottom:10px}
+.step p{font-size:15.5px}
+
+/* ---------- Testimonials ---------- */
+.pullquote{font-family:'Sora',sans-serif;font-size:clamp(22px,2.8vw,34px);font-weight:600;color:var(--ink);max-width:26ch;line-height:1.35;margin:30px auto 50px;text-align:center}
+.pullquote em{color:var(--blue);font-style:normal}
+.marquee{overflow:hidden;position:relative;-webkit-mask-image:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent);mask-image:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent)}
+.marquee-track{display:flex;gap:24px;width:max-content;animation:scroll 42s linear infinite}
+.marquee:hover .marquee-track{animation-play-state:paused}
+@keyframes scroll{to{transform:translateX(-50%)}}
+.t-card{width:360px;background:#fff;border:1px solid rgba(6,36,59,.07);border-radius:var(--radius);padding:26px 28px;box-shadow:var(--shadow-1);flex:none}
+.t-card .stars{font-size:14px;margin-bottom:12px}
+.t-card p{font-size:15px;line-height:1.6;margin-bottom:16px}
+.t-card .who{display:flex;align-items:center;gap:12px}
+.t-card .av{width:38px;height:38px;border-radius:50%;background:var(--ink);color:#fff;font-family:'Sora',sans-serif;font-weight:700;font-size:14px;display:grid;place-items:center}
+.t-card b{font-size:14px;color:var(--ink);display:block;font-family:'Sora',sans-serif}
+.t-card small{font-size:12.5px}
+
+/* ---------- Services rows ---------- */
+.srow{display:grid;grid-template-columns:1fr 1fr;gap:clamp(32px,5vw,80px);align-items:center;margin-top:clamp(56px,7vw,96px)}
+.srow:first-of-type{margin-top:clamp(40px,5vw,64px)}
+.srow .img{border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow-2)}
+.srow .img img{width:100%;aspect-ratio:16/11;object-fit:cover;transition:transform .6s ease}
+.srow .img:hover img{transform:scale(1.04)}
+.srow.rev .img{order:2}
+.srow h3{font-size:clamp(24px,2.4vw,32px);margin-bottom:14px}
+.srow p{margin-bottom:18px}
+.srow .tag{display:inline-block;font-size:12px;font-weight:700;letter-spacing:.22em;text-transform:uppercase;color:var(--blue);margin-bottom:14px;font-family:'Sora',sans-serif}
+.textlink{font-family:'Sora',sans-serif;font-weight:700;font-size:15px;color:var(--blue);text-decoration:none}
+.textlink:hover{text-decoration:underline}
+
+/* ---------- Benefits ---------- */
+.benefits{background:var(--sand)}
+.b-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px;margin-top:54px;align-items:stretch}
+.b-card{background:#fff;border-radius:var(--radius);padding:38px 32px;box-shadow:var(--shadow-1);transition:transform .25s ease,box-shadow .25s ease}
+.b-card:hover{transform:translateY(-5px);box-shadow:var(--shadow-2)}
+.b-card.hero-card{background:var(--ink);color:#BCCYD8;color:#BCCDD8;transform:translateY(-14px);box-shadow:var(--shadow-2)}
+.b-card.hero-card h3{color:#fff}
+.b-card.hero-card:hover{transform:translateY(-19px)}
+.b-card .icon{width:50px;height:50px;border-radius:13px;background:var(--aqua-soft);display:grid;place-items:center;margin-bottom:20px;color:var(--blue);font-size:21px}
+.b-card.hero-card .icon{background:rgba(255,255,255,.12);color:var(--aqua)}
+.b-card h3{font-size:19px;margin-bottom:10px}
+.b-card p{font-size:15px}
+.b-card .pill{display:inline-block;background:var(--gold);color:var(--ink);font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;border-radius:999px;padding:5px 12px;margin-bottom:18px;font-family:'Sora',sans-serif}
+
+/* ---------- FAQ ---------- */
+.faq-list{max-width:780px;margin:50px auto 0}
+.faq{border-bottom:1px solid rgba(6,36,59,.1)}
+.faq button{width:100%;background:none;border:none;text-align:left;display:flex;justify-content:space-between;align-items:center;gap:20px;
+  padding:24px 4px;cursor:pointer;font-family:'Sora',sans-serif;font-size:17.5px;font-weight:600;color:var(--ink)}
+.faq .chev{flex:none;transition:transform .35s ease;color:var(--blue)}
+.faq.open .chev{transform:rotate(180deg)}
+.faq .a{max-height:0;overflow:hidden;transition:max-height .4s ease;font-size:15.5px}
+.faq .a p{padding:0 4px 24px;max-width:64ch}
+
+/* ---------- Final CTA / form ---------- */
+.final{position:relative;background:linear-gradient(150deg,#04192B 0%, var(--ink) 45%, #0A3A5C 100%);overflow:hidden}
+.final::before{content:"";position:absolute;width:760px;height:760px;border-radius:50%;left:50%;top:50%;transform:translate(-50%,-50%);
+  background:radial-gradient(circle, rgba(11,132,224,.25), transparent 60%);animation:breathe 3.6s ease-in-out infinite}
+@keyframes breathe{0%,100%{opacity:.5;transform:translate(-50%,-50%) scale(1)}50%{opacity:.9;transform:translate(-50%,-50%) scale(1.07)}}
+.final-grid{position:relative;z-index:2;display:grid;grid-template-columns:1.1fr .9fr;gap:clamp(40px,5vw,90px);align-items:center}
+.final h2{color:#fff;font-size:clamp(32px,4vw,56px);margin-bottom:18px;letter-spacing:-.015em}
+.final .lede{color:#A9BFCC;margin-bottom:30px}
+.final .phone-line{margin-top:26px;color:#7E97A6;font-size:14.5px}
+.final .phone-line a{color:#fff;font-family:'Sora',sans-serif;font-weight:700;font-size:19px;text-decoration:none}
+.form-card{background:#fff;border-radius:20px;padding:clamp(28px,3vw,42px);box-shadow:0 30px 80px rgba(0,0,0,.4)}
+.form-card h3{font-size:22px;margin-bottom:6px}
+.form-card .sub{font-size:14px;margin-bottom:24px}
+.form-card label{display:block;font-size:13px;font-weight:600;color:var(--ink);margin:0 0 6px;font-family:'Sora',sans-serif}
+.form-card input,.form-card select{width:100%;padding:13px 16px;border:1.5px solid rgba(6,36,59,.14);border-radius:11px;font-size:15.5px;
+  font-family:'Inter',sans-serif;color:var(--ink);margin-bottom:16px;background:#fff;transition:border-color .2s, box-shadow .2s;-webkit-appearance:none}
+.form-card input:focus,.form-card select:focus{outline:none;border-color:var(--blue);box-shadow:0 0 0 4px rgba(11,132,224,.12)}
+.form-card .cta{width:100%;justify-content:center}
+.form-card .fine{font-size:12px;color:#8FA0AB;margin-top:14px;text-align:center}
+.form-success{display:none;text-align:center;padding:40px 10px}
+.form-success .big{font-size:46px;margin-bottom:14px}
+.form-success h3{margin-bottom:8px}
+
+/* ---------- Footer ---------- */
+footer{background:#04141F;color:#7E97A6;padding:56px 0 40px;font-size:14px}
+.f-grid{display:flex;justify-content:space-between;align-items:center;gap:30px;flex-wrap:wrap}
+footer img{height:46px;width:auto;filter:brightness(0) invert(1);opacity:.9}
+footer a{color:#B9CAD4;text-decoration:none}
+footer a:hover{color:#fff}
+.f-fine{margin-top:30px;font-size:12px;color:#51687A;text-align:center}
+
+/* ---------- Mobile sticky CTA ---------- */
+.sticky-cta{display:none;position:fixed;bottom:0;left:0;right:0;z-index:90;background:rgba(255,255,255,.94);backdrop-filter:blur(12px);
+  padding:10px 16px calc(10px + env(safe-area-inset-bottom));box-shadow:0 -6px 24px rgba(6,36,59,.12);gap:10px}
+.sticky-cta .cta{flex:1;justify-content:center;padding:14px 10px;font-size:15px}
+.sticky-cta .call{flex:none;width:52px;height:52px;border-radius:50%;background:var(--ink);color:#fff;display:grid;place-items:center;text-decoration:none}
+
+/* ---------- Reveal base ---------- */
+.rv{opacity:0;transform:translateY(28px)}
+
+/* ---------- Responsive ---------- */
+@media (max-width:1024px){
+  .hero-grid,.shift-grid,.final-grid{grid-template-columns:1fr;gap:44px}
+  .hero{min-height:auto;padding:130px 0 70px}
+  .hero-img .frame{aspect-ratio:16/11}
+  .steps-grid,.b-grid{grid-template-columns:1fr 1fr}
+  .b-card.hero-card{transform:none}
+  .srow{grid-template-columns:1fr;gap:26px}
+  .srow.rev .img{order:0}
+}
+@media (max-width:760px){
+  .nav-links,.nav .cta,.nav-phone{display:none}
+  .burger{display:block}
+  .steps-grid,.b-grid{grid-template-columns:1fr}
+  .sticky-cta{display:flex}
+  body{padding-bottom:74px}
+  .hero-badge{left:10px;bottom:14px;padding:11px 14px}
+  .proof{gap:14px}
+  .proof .divider{display:none}
+  section{padding:60px 0}
+  .t-card{width:300px}
+}
+</style>
+</head>
+<body>
+
+<!-- ================= HEADER ================= -->
+<header id="header">
+  <div class="wrap nav">
+    <a class="logo" href="#top" aria-label="Sunny Coast Windows">
+      <img src="https://static.wixstatic.com/media/1dfdad_a94216133bd143218c3c2cb48002bfc4~mv2.png" alt="Sunny Coast Windows logo">
+    </a>
+    <nav class="nav-links">
+      <a href="#services">Services</a>
+      <a href="#how">How it works</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+    <a class="nav-phone" href="tel:+61431832316">0431 832 316</a>
+    <a class="cta" href="#quote">Get My Free Quote</a>
+    <button class="burger" id="burger" aria-label="Menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#services">Services</a>
+  <a href="#how">How it works</a>
+  <a href="#reviews">Reviews</a>
+  <a href="#faq">FAQ</a>
+  <a href="tel:+61431832316">Call 0431 832 316</a>
+  <a class="cta" href="#quote">Get My Free Quote</a>
+</div>
+
+<!-- ================= 1. HERO ================= -->
+<section class="hero" id="top">
+  <div class="blob b1"></div><div class="blob b2"></div><div class="blob b3"></div>
+  <div class="wrap hero-grid">
+    <div>
+      <div class="eyebrow rv" id="hv1">Noosa & the Sunshine Coast</div>
+      <h1 class="h-xl rv" id="hv2">Your home,<br>looking brand<br>new again.</h1>
+      <p class="lede rv" id="hv3">Windows, tracks, screens, driveways and full exterior washes — done properly by a local crew that turns up on time and guarantees you'll love the result.</p>
+      <div class="rv" id="hv4">
+        <a class="cta" href="#quote">Get My Free Quote
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+      </div>
+      <div class="proof rv" id="hv5">
+        <div><span class="stars">★★★★★</span><br><small>5.0 from local homeowners</small></div>
+        <div class="divider"></div>
+        <small><b style="color:var(--ink)">Hundreds</b> of local homes cleaned</small>
+        <div class="divider"></div>
+        <small><b style="color:var(--ink)">Satisfaction</b> guaranteed, every clean</small>
+      </div>
+    </div>
+    <div class="hero-img rv" id="hv6">
+      <div class="frame">
+        <img src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=1100&q=80" alt="A spotless Sunshine Coast home with sparkling windows" fetchpriority="high">
+      </div>
+      <div class="hero-badge">
+        <div class="tick">✓</div>
+        <div><b>Satisfaction guaranteed</b><span>or we re-clean it, free</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 2. PROBLEM ================= -->
+<section class="problem">
+  <div class="wrap">
+    <p class="rv">You see the grime every day. <span class="accent">You just stopped seeing it.</span></p>
+    <p class="sub rv">Streaky glass, a green driveway, cobwebs in the eaves. It creeps up slowly — until one day your beautiful home looks tired, and weekends aren't long enough to fix it.</p>
+  </div>
+</section>
+
+<!-- ================= 3. THE SHIFT ================= -->
+<section>
+  <div class="wrap shift-grid">
+    <div class="shift-img rv" data-mask>
+      <img loading="lazy" src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=1400&q=80" alt="Professional window cleaning in progress">
+    </div>
+    <div>
+      <div class="eyebrow rv">The shift</div>
+      <h2 class="h-l rv">One visit. The whole exterior, handled.</h2>
+      <p class="lede rv" style="margin-top:16px">No juggling three different tradies. Windows, tracks, screens, driveway, walls and roofline — one crew, one morning, one before-and-after that makes the neighbours look twice.</p>
+      <ul class="checklist">
+        <li class="rv"><span class="c">✓</span> Streak-free glass, inside and out — tracks and screens included</li>
+        <li class="rv"><span class="c">✓</span> Soft-wash house exteriors that stay cleaner for longer</li>
+        <li class="rv"><span class="c">✓</span> Driveways and paths stripped of mould, oil and grime</li>
+        <li class="rv"><span class="c">✓</span> Fully insured, police-checked, and friendly with the dog</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 4. HOW IT WORKS ================= -->
+<section class="steps" id="how">
+  <div class="wrap">
+    <div class="eyebrow rv" style="text-align:center">How it works</div>
+    <h2 class="h-l rv" style="text-align:center;max-width:18ch;margin:0 auto">Three steps to a spotless home</h2>
+    <div class="steps-grid">
+      <div class="step rv">
+        <div class="num">01</div>
+        <div class="icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.37 1.9.72 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.35 1.85.59 2.81.72A2 2 0 0 1 22 16.92z"/></svg></div>
+        <h3>Tell us what's grubby</h3>
+        <p>Call <a class="textlink" href="tel:+61431832316">0431 832 316</a> or send the quick form. We'll quote most jobs over the phone — free, no obligation, no pushy follow-up.</p>
+      </div>
+      <div class="step rv">
+        <div class="num">02</div>
+        <div class="icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l18-8-8 18-2.5-7.5L3 11z"/></svg></div>
+        <h3>We turn up and transform it</h3>
+        <p>On time, in uniform, with pro gear and eco-friendly solutions. We treat your place like it's ours — gardens, pets and paintwork respected.</p>
+      </div>
+      <div class="step rv">
+        <div class="num">03</div>
+        <div class="icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg></div>
+        <h3>You relax — it's guaranteed</h3>
+        <p>Every clean is backed by our satisfaction guarantee. Spot something we missed? Tell us and we'll come back and make it right — free.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 5. SOCIAL PROOF ================= -->
+<section id="reviews">
+  <div class="wrap">
+    <div class="eyebrow rv" style="text-align:center">Reviews</div>
+    <p class="pullquote rv">“We came home to <em>spotless windows</em>. It honestly felt like a brand new house.”</p>
+  </div>
+  <div class="marquee rv">
+    <div class="marquee-track" id="marqueeTrack">
+      <div class="t-card"><div class="stars">★★★★★</div><p>"Very happy with Sunny Coast Windows and their window cleaning talents. We came home to spotless windows at a reasonable price. Hunter was responsive, professional and timely. Highly recommend."</p><div class="who"><div class="av">NO</div><div><b>Natasha O.</b><small>Homeowner, Sunshine Coast</small></div></div></div>
+      <div class="t-card"><div class="stars">★★★★★</div><p>"Quoted over the phone in five minutes. Driveway went from black to almost-new concrete. Worth every cent."</p><div class="who"><div class="av">MR</div><div><b>Mark R.</b><small>Homeowner, Coolum</small></div></div></div>
+      <div class="t-card"><div class="stars">★★★★★</div><p>"They cleaned the shopfront glass weekly for us. Reliable every single time — customers comment on how bright the place looks."</p><div class="who"><div class="av">SJ</div><div><b>Sarah J.</b><small>Café owner, Noosa Heads</small></div></div></div>
+      <div class="t-card"><div class="stars">★★★★★</div><p>"Booked a full exterior wash and windows. The crew were on time, polite, and the place hasn't looked this good since we built it."</p><div class="who"><div class="av">DP</div><div><b>Dave P.</b><small>Homeowner, Peregian Beach</small></div></div></div>
+      <div class="t-card"><div class="stars">★★★★★</div><p>"Tracks and screens done properly — not just the glass. First cleaner we've had who didn't cut corners."</p><div class="who"><div class="av">LK</div><div><b>Leanne K.</b><small>Homeowner, Buderim</small></div></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 6. SERVICES ================= -->
+<section id="services" style="padding-top:0">
+  <div class="wrap">
+    <div class="eyebrow rv">Services</div>
+    <h2 class="h-l rv" style="max-width:22ch">Every surface outside your home, covered.</h2>
+
+    <div class="srow">
+      <div class="img rv" data-mask><img loading="lazy" src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1400&q=80" alt="Crystal clear glass on a modern home"></div>
+      <div>
+        <span class="tag rv">Windows · Tracks · Screens</span>
+        <h3 class="rv">Glass so clean the room feels bigger</h3>
+        <p class="rv">Inside and out, frames wiped, tracks vacuumed and screens washed. Pure-water poles for high glass — no streaks, no ladders against your gutters.</p>
+        <a class="textlink rv" href="#quote">Get windows quoted →</a>
+      </div>
+    </div>
+
+    <div class="srow rev">
+      <div class="img rv" data-mask><img loading="lazy" src="https://images.unsplash.com/photo-1523217582562-09d0def993a6?w=1400&q=80" alt="Clean driveway and home frontage"></div>
+      <div>
+        <span class="tag rv">Pressure Cleaning</span>
+        <h3 class="rv">Driveways back to the colour you forgot</h3>
+        <p class="rv">Concrete, pavers, pool surrounds and paths — mould, oil and years of grime lifted with commercial-grade pressure gear and the right detergents for each surface.</p>
+        <a class="textlink rv" href="#quote">Get my driveway quoted →</a>
+      </div>
+    </div>
+
+    <div class="srow">
+      <div class="img rv" data-mask><img loading="lazy" src="https://images.unsplash.com/photo-1605146769289-440113cc3d00?w=1400&q=80" alt="Fresh, clean house exterior after soft washing"></div>
+      <div>
+        <span class="tag rv">Exterior House Cleaning</span>
+        <h3 class="rv">A soft wash that makes paint look fresh</h3>
+        <p class="rv">Low-pressure soft washing lifts mould, salt and coastal grime gently — so render, cladding and brick stay cleaner for longer without damaging your paintwork.</p>
+        <a class="textlink rv" href="#quote">Get a house wash quote →</a>
+      </div>
+    </div>
+
+    <div class="srow rev">
+      <div class="img rv" data-mask><img loading="lazy" src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1400&q=80" alt="Commercial building with gleaming glass"></div>
+      <div>
+        <span class="tag rv">Commercial Cleaning</span>
+        <h3 class="rv">Shopfronts and buildings that invite people in</h3>
+        <p class="rv">Scheduled window and exterior cleans for cafés, offices, retail and body corporate. Fully insured, flexible hours, one invoice — your frontage always at its best.</p>
+        <a class="textlink rv" href="#quote">Talk commercial →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 7. BENEFITS ================= -->
+<section class="benefits">
+  <div class="wrap">
+    <div class="eyebrow rv" style="text-align:center">Why Sunny Coast Windows</div>
+    <h2 class="h-l rv" style="text-align:center;max-width:20ch;margin:0 auto">Locals choose us for a reason. Three, actually.</h2>
+    <div class="b-grid">
+      <div class="b-card rv">
+        <div class="icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg></div>
+        <h3>Quoted fast, priced straight</h3>
+        <p>Most jobs quoted over the phone in minutes. The price we say is the price you pay — no surprise extras on the day.</p>
+      </div>
+      <div class="b-card hero-card rv">
+        <div class="pill">Our promise</div>
+        <div class="icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-3.5 8-10V5l-8-3-8 3v7c0 6.5 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg></div>
+        <h3>Satisfaction Guaranteed</h3>
+        <p>If you're not completely happy with any part of your clean, tell us — we'll come back and re-do it free of charge. No forms, no fuss, no quibble.</p>
+      </div>
+      <div class="b-card rv">
+        <div class="icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10z"/><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/></svg></div>
+        <h3>Eco-friendly & fully insured</h3>
+        <p>Garden-safe solutions, careful around pets and paintwork, and full public liability cover. A local crew you can trust on your property.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 8. FAQ ================= -->
+<section id="faq">
+  <div class="wrap">
+    <div class="eyebrow rv" style="text-align:center">FAQ</div>
+    <h2 class="h-l rv" style="text-align:center">Fair questions, straight answers</h2>
+    <div class="faq-list">
+      <div class="faq rv"><button>How much does window cleaning cost?<svg class="chev" width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+        <div class="a"><p>It depends on the number of panes, access and whether you'd like tracks and screens included. Most homes can be quoted accurately over the phone in a few minutes — call 0431 832 316 or use the form and we'll come back fast with a fixed price.</p></div></div>
+      <div class="faq rv"><button>What areas do you service?<svg class="chev" width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+        <div class="a"><p>We're based in Noosa and cover the Sunshine Coast — including Noosa Heads, Sunshine Beach, Peregian, Coolum, Maroochydore, Buderim and surrounds. Not sure if you're in range? Ask — we're flexible.</p></div></div>
+      <div class="faq rv"><button>How does the satisfaction guarantee work?<svg class="chev" width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+        <div class="a"><p>Simple: if you're not completely happy with any part of your clean, let us know and we'll come back to re-do it free of charge. No forms, no fuss — just call or text us.</p></div></div>
+      <div class="faq rv"><button>Do I need to be home during the clean?<svg class="chev" width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+        <div class="a"><p>For exterior-only work, no — as long as we can access the areas being cleaned and water, you can get on with your day. For interior window cleaning we'll arrange a time that suits you.</p></div></div>
+      <div class="faq rv"><button>Will pressure cleaning damage my surfaces?<svg class="chev" width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+        <div class="a"><p>Not when it's done right. We match pressure and detergents to each surface — high pressure for concrete, gentle soft-washing for render, cladding and roofs. That's the difference between a pro clean and a hire-shop machine.</p></div></div>
+      <div class="faq rv"><button>Are your cleaning products safe for pets and gardens?<svg class="chev" width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+        <div class="a"><p>Yes. We use eco-friendly solutions and take care to protect gardens, lawns and outdoor areas. If you've got pets, just let us know and we'll work around them.</p></div></div>
+      <div class="faq rv"><button>Do you do regular or scheduled cleans?<svg class="chev" width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+        <div class="a"><p>Absolutely — many of our residential and commercial clients are on monthly, quarterly or bi-annual schedules. Regulars get priority booking and locked-in pricing.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 9. FINAL CTA + INQUIRY FORM ================= -->
+<section class="final" id="quote">
+  <div class="wrap final-grid">
+    <div>
+      <div class="eyebrow rv" style="color:var(--aqua)">Free quote · No obligation</div>
+      <h2 class="rv">Let's make your place the best-looking home on the street.</h2>
+      <p class="lede rv">Tell us what needs cleaning. We'll come back with a fixed price — usually the same day.</p>
+      <div class="rv"><a class="cta" href="tel:+61431832316" style="background:#fff;color:var(--ink);box-shadow:0 6px 18px rgba(0,0,0,.3)"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.37 1.9.72 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.35 1.85.59 2.81.72A2 2 0 0 1 22 16.92z"/></svg> Call 0431 832 316</a></div>
+      <p class="phone-line rv">Prefer to talk? We quote most jobs over the phone — <a href="tel:+61431832316">0431 832 316</a></p>
+    </div>
+    <div class="form-card rv" id="formCard">
+      <form id="quoteForm" novalidate>
+        <h3>Get my free quote</h3>
+        <p class="sub">Takes 20 seconds. We reply fast.</p>
+        <label for="f-name">Name</label>
+        <input id="f-name" name="name" type="text" autocomplete="name" placeholder="Your name" required>
+        <label for="f-phone">Phone</label>
+        <input id="f-phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" placeholder="04xx xxx xxx" required>
+        <label for="f-email">Email</label>
+        <input id="f-email" name="email" type="email" autocomplete="email" placeholder="you@email.com" required>
+        <label for="f-service">What needs cleaning?</label>
+        <select id="f-service" name="service">
+          <option>Window cleaning</option>
+          <option>Track & screen cleaning</option>
+          <option>Pressure cleaning / driveway</option>
+          <option>Exterior house wash</option>
+          <option>Commercial / shopfront</option>
+          <option>Residential cleaning</option>
+          <option>Not sure — quote me everything</option>
+        </select>
+        <button class="cta" type="submit">Get My Free Quote
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <p class="fine">No spam, no lock-in. Just a fast, fair price.</p>
+      </form>
+      <div class="form-success" id="formSuccess">
+        <div class="big" style="color:var(--blue)"><svg width="52" height="52" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 12.5l2.5 2.5L16 9.5"/></svg></div>
+        <h3>Got it — talk soon!</h3>
+        <p>We'll be in touch shortly with your free quote. Need it faster? Call <a class="textlink" href="tel:+61431832316">0431 832 316</a>.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 10. FOOTER ================= -->
+<footer>
+  <div class="wrap">
+    <div class="f-grid">
+      <img src="https://static.wixstatic.com/media/1dfdad_a94216133bd143218c3c2cb48002bfc4~mv2.png" alt="Sunny Coast Windows">
+      <div>
+        <a href="tel:+61431832316">0431 832 316</a> &nbsp;·&nbsp;
+        <a href="mailto:Hunter@SunnyCoastWindows.com.au">Hunter@SunnyCoastWindows.com.au</a> &nbsp;·&nbsp;
+        Noosa, QLD
+      </div>
+      <div>
+        <a href="https://www.instagram.com/sunnycoastwindows/" rel="noopener">Instagram</a> &nbsp;&nbsp;
+        <a href="https://www.tiktok.com/@sunnycoastwindows" rel="noopener">TikTok</a> &nbsp;&nbsp;
+        <a href="https://www.sunnycoastwindows.com.au/" rel="noopener">sunnycoastwindows.com.au</a>
+      </div>
+    </div>
+    <p class="f-fine">© 2026 Sunny Coast Windows. Fully insured. Servicing Noosa & the Sunshine Coast. — Design concept by NetWorth Digital (sample; some reviews illustrative for layout).</p>
+  </div>
+</footer>
+
+<!-- Mobile sticky CTA -->
+<div class="sticky-cta">
+  <a class="call" href="tel:+61431832316" aria-label="Call now"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.37 1.9.72 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.35 1.85.59 2.81.72A2 2 0 0 1 22 16.92z"/></svg></a>
+  <a class="cta" href="#quote">Get My Free Quote</a>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script>
+gsap.registerPlugin(ScrollTrigger);
+
+/* Hero entry stagger (~800ms total) */
+gsap.to(["#hv1","#hv2","#hv3","#hv4","#hv5","#hv6"], {
+  opacity:1, y:0, duration:.55, ease:"power2.out", stagger:.12, delay:.1
+});
+
+/* Scroll reveals — once:true */
+document.querySelectorAll(".rv:not(#hv1):not(#hv2):not(#hv3):not(#hv4):not(#hv5):not(#hv6)").forEach(el=>{
+  gsap.to(el,{opacity:1,y:0,duration:.7,ease:"power2.out",
+    scrollTrigger:{trigger:el,start:"top 82%",once:true}});
+});
+
+/* Image mask reveals */
+document.querySelectorAll("[data-mask]").forEach(el=>{
+  gsap.fromTo(el,{clipPath:"inset(0 100% 0 0 round 16px)"},
+    {clipPath:"inset(0 0% 0 0 round 16px)",duration:1,ease:"power3.out",
+     scrollTrigger:{trigger:el,start:"top 80%",once:true}});
+});
+
+/* Hero blobs — slow float + mouse parallax */
+gsap.to(".b1",{y:40,x:-30,duration:9,yoyo:true,repeat:-1,ease:"sine.inOut"});
+gsap.to(".b2",{y:-50,x:40,duration:11,yoyo:true,repeat:-1,ease:"sine.inOut"});
+gsap.to(".b3",{y:30,x:30,duration:8,yoyo:true,repeat:-1,ease:"sine.inOut"});
+if (matchMedia("(pointer:fine)").matches){
+  document.querySelector(".hero").addEventListener("mousemove",e=>{
+    const cx=(e.clientX/innerWidth-.5), cy=(e.clientY/innerHeight-.5);
+    gsap.to(".b1",{xPercent:cx*6,yPercent:cy*6,duration:1.2,overwrite:"auto"});
+    gsap.to(".b2",{xPercent:-cx*8,yPercent:-cy*8,duration:1.2,overwrite:"auto"});
+  });
+}
+
+/* Sticky header blur after 80px */
+const header=document.getElementById("header");
+addEventListener("scroll",()=>header.classList.toggle("scrolled",scrollY>80),{passive:true});
+
+/* Mobile menu */
+const burger=document.getElementById("burger"), menu=document.getElementById("mobileMenu");
+burger.addEventListener("click",()=>menu.classList.toggle("open"));
+menu.querySelectorAll("a").forEach(a=>a.addEventListener("click",()=>menu.classList.remove("open")));
+
+/* Marquee: duplicate track for seamless loop */
+const track=document.getElementById("marqueeTrack");
+track.innerHTML += track.innerHTML;
+
+/* FAQ accordion */
+document.querySelectorAll(".faq").forEach(f=>{
+  const btn=f.querySelector("button"), a=f.querySelector(".a");
+  btn.addEventListener("click",()=>{
+    const open=f.classList.contains("open");
+    document.querySelectorAll(".faq.open").forEach(o=>{o.classList.remove("open");o.querySelector(".a").style.maxHeight=null;});
+    if(!open){f.classList.add("open");a.style.maxHeight=a.scrollHeight+"px";}
+  });
+});
+
+/* Form: validate + success state.
+   PRODUCTION: point this at your GHL (LeadConnector) inbound webhook or form endpoint. */
+document.getElementById("quoteForm").addEventListener("submit",e=>{
+  e.preventDefault();
+  const form=e.target;
+  if(!form.checkValidity()){form.reportValidity();return;}
+  /* Conversion tracking hooks:
+     gtag('event','generate_lead',{...});  fbq('track','Lead');  */
+  // fetch("YOUR_GHL_WEBHOOK_URL",{method:"POST",headers:{'Content-Type':'application/json'},body:JSON.stringify(Object.fromEntries(new FormData(form)))});
+  form.style.display="none";
+  document.getElementById("formSuccess").style.display="block";
+});
+</script>
+</body>
+</html>
